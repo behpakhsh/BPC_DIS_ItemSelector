@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/cl_item_selector"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:clickable="true"
     android:focusable="true"
@@ -20,13 +20,17 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_value"
-        android:layout_width="64dp"
-        android:layout_height="32dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:background="?attr/selectableItemBackgroundBorderless"
         android:gravity="bottom|center"
-        android:padding="2dp"
+        android:paddingStart="20dp"
+        android:paddingTop="2dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="2dp"
         app:layout_constraintBottom_toTopOf="@id/view_line"
         app:layout_constraintEnd_toStartOf="@+id/btn_add"
+        app:layout_constraintStart_toEndOf="@+id/btn_minus"
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
@@ -57,6 +61,6 @@
         android:padding="5dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_value" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
