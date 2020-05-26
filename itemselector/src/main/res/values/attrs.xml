@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DisItemSelector">
+        <attr name="disBackgroundColor" format="reference|color" />
+
+        <attr name="disTitle" format="reference|string" />
+        <attr name="disTitleTextSize" format="dimension" />
+        <attr name="disTitleTextColor" format="reference|color" />
+
+        <attr name="disAddSrc" format="reference" />
+        <attr name="disAddTintColor" format="reference|color" />
+
+        <attr name="disMinusSrc" format="reference" />
+        <attr name="disMinusTintColor" format="reference|color" />
+
+        <attr name="disValueTextSize" format="dimension" />
+        <attr name="disValueTextColor" format="reference|color" />
+        <attr name="disUnderlineColor" format="reference|color" />
+        <attr name="disUnderlineHeight" format="dimension" />
+
+    </declare-styleable>
+</resources>

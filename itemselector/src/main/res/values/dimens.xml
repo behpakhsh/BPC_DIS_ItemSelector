@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="disTitleTextSize">14dp</dimen>
+    <dimen name="disValueTextSize">14dp</dimen>
+    <dimen name="disUnderlineHeightSize">1dp</dimen>
+
+</resources>
