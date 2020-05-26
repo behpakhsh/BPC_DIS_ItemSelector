@@ -14,19 +14,17 @@
         android:layout_height="0dp"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="@id/btn_value"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/btn_value" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_value"
         android:layout_width="64dp"
-        android:layout_height="wrap_content"
+        android:layout_height="32dp"
         android:background="?attr/selectableItemBackgroundBorderless"
         android:gravity="bottom|center"
         android:padding="2dp"
         app:layout_constraintBottom_toTopOf="@id/view_line"
-        app:layout_constraintEnd_toStartOf="@+id/btn_add"
-        app:layout_constraintStart_toEndOf="@+id/btn_minus" />
+        app:layout_constraintEnd_toStartOf="@+id/btn_add" />
 
     <View
         android:id="@+id/view_line"
@@ -56,6 +54,6 @@
         android:padding="5dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toStartOf="@id/btn_value"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
