@@ -4,5 +4,7 @@
     <dimen name="disTitleTextSize">14dp</dimen>
     <dimen name="disValueTextSize">14dp</dimen>
     <dimen name="disUnderlineHeightSize">1dp</dimen>
+    <dimen name="defaultHeightSize">32dp</dimen>
+    <dimen name="defaultWidthSize">48dp</dimen>
 
 </resources>

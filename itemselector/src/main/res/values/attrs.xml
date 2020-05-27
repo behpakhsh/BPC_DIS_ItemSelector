@@ -2,6 +2,8 @@
 <resources>
     <declare-styleable name="DisItemSelector">
         <attr name="disBackgroundColor" format="reference|color" />
+        <attr name="disFixWidth" format="dimension" />
+        <attr name="disFixHeight" format="dimension" />
 
         <attr name="disTitle" format="reference|string" />
         <attr name="disTitleTextSize" format="dimension" />

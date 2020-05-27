@@ -63,6 +63,8 @@ public class DisItemSelector extends FrameLayout {
 
     private void setupLayout(TypedArray styledAttributes) {
         setBackgroundResource(styledAttributes.getResourceId(R.styleable.DisItemSelector_disBackgroundColor, R.color.disBackground));
+        setHeight(styledAttributes.getDimension(R.styleable.DisItemSelector_disFixHeight, getResources().getDimension(R.dimen.defaultHeightSize)));
+        setWidth(styledAttributes.getDimension(R.styleable.DisItemSelector_disFixWidth, getResources().getDimension(R.dimen.defaultWidthSize)));
     }
 
     private void setupDrawable(TypedArray styledAttributes) {
@@ -92,6 +94,16 @@ public class DisItemSelector extends FrameLayout {
 
     public void setBackgroundResource(int res) {
         clItemSelector.setBackgroundResource(res);
+    }
+
+    public void setHeight(float height) {
+        clItemSelector.getLayoutParams().height = (int) height;
+        clItemSelector.requestLayout();
+    }
+
+    public void setWidth(float width) {
+        btnValue.getLayoutParams().width = (int) width;
+        btnValue.requestLayout();
     }
 
     public void setTitleText(String text) {

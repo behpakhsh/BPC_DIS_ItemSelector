@@ -2,10 +2,10 @@
 <resources>
 
     <color name="disBackground">#FFFFFF</color>
-    <color name="disTitleTextColor">#595959</color>
-    <color name="disValueTextColor">#595959</color>
-    <color name="disUnderlineColor">#595959</color>
-    <color name="disAddTintColor">#595959</color>
-    <color name="disMinusTintColor">#595959</color>
+    <color name="disTitleTextColor">#575e6e</color>
+    <color name="disValueTextColor">#575e6e</color>
+    <color name="disUnderlineColor">#575e6e</color>
+    <color name="disAddTintColor">#575e6e</color>
+    <color name="disMinusTintColor">#575e6e</color>
 
 </resources>
