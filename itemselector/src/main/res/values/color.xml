@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="disBackground">#FFFFFF</color>
+    <color name="disItemSelectorBackground">#FFFFFF</color>
     <color name="disTitleTextColor">#575e6e</color>
     <color name="disValueTextColor">#575e6e</color>
     <color name="disUnderlineColor">#575e6e</color>

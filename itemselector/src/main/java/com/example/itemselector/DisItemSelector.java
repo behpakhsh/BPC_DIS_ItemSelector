@@ -62,7 +62,7 @@ public class DisItemSelector extends FrameLayout {
     }
 
     private void setupLayout(TypedArray styledAttributes) {
-        setBackgroundResource(styledAttributes.getResourceId(R.styleable.DisItemSelector_disBackgroundColor, R.color.disBackground));
+        setBackgroundResource(styledAttributes.getResourceId(R.styleable.DisItemSelector_disBackgroundColor, R.color.disItemSelectorBackground));
         setHeight(styledAttributes.getDimension(R.styleable.DisItemSelector_disFixHeight, getResources().getDimension(R.dimen.defaultHeightSize)));
         setWidth(styledAttributes.getDimension(R.styleable.DisItemSelector_disFixWidth, getResources().getDimension(R.dimen.defaultWidthSize)));
     }
@@ -87,10 +87,6 @@ public class DisItemSelector extends FrameLayout {
         setUnderlineHeight(styledAttributes.getDimension(R.styleable.DisItemSelector_disUnderlineHeight, getResources().getDimension(R.dimen.disUnderlineHeightSize)));
     }
 
-
-    public void setBackgroundColor(int backgroundColor) {
-        clItemSelector.setBackgroundColor(backgroundColor);
-    }
 
     public void setBackgroundResource(int res) {
         clItemSelector.setBackgroundResource(res);
