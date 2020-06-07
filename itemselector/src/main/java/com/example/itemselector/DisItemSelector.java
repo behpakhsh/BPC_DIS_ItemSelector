@@ -68,8 +68,8 @@ public class DisItemSelector extends FrameLayout {
     }
 
     private void setupDrawable(TypedArray styledAttributes) {
-        setAddDrawable(styledAttributes.getResourceId(R.styleable.DisItemSelector_disAddSrc, R.drawable.ic_add));
-        setMinusDrawable(styledAttributes.getResourceId(R.styleable.DisItemSelector_disMinusSrc, R.drawable.ic_minus));
+        setAddDrawable(styledAttributes.getResourceId(R.styleable.DisItemSelector_disAddSrc, R.drawable.ic_add_gray));
+        setMinusDrawable(styledAttributes.getResourceId(R.styleable.DisItemSelector_disMinusSrc, R.drawable.ic_minus_gray));
         setAddTintColor(styledAttributes.getColor(R.styleable.DisItemSelector_disAddTintColor, getResources().getColor(R.color.disAddTintColor)));
         setMinusTintColor(styledAttributes.getColor(R.styleable.DisItemSelector_disMinusTintColor, getResources().getColor(R.color.disMinusTintColor)));
     }
