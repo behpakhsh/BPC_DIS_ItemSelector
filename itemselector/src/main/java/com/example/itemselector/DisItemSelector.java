@@ -36,14 +36,6 @@ public class DisItemSelector extends FrameLayout {
         init(attrs, defStyleAttr);
     }
 
-    @Override
-    protected void onDetachedFromWindow() {
-        super.onDetachedFromWindow();
-        btnAdd.setOnClickListener(null);
-        btnMinus.setOnClickListener(null);
-        btnValue.setOnClickListener(null);
-    }
-
     private void init(AttributeSet attrs, int defStyleAttr) {
         View view = inflate(getContext(), R.layout.dis_item_selector, this);
         clItemSelector = view.findViewById(R.id.cl_item_selector);
